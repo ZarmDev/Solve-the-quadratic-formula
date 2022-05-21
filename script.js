@@ -1,5 +1,6 @@
 function solveQuadraticFormula(a, b, c) {
   var t = Math.sqrt(((b*b)-4*(a*c)));
+  console.log(`discriminant: ${t}`);
   console.log(`In the square root part of the formula: ${t}`);
   console.log(`${-(b)} +- ${t}`);
   console.log('---------');
